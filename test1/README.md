@@ -34,21 +34,21 @@
 
 查询一：
 
-![img](1.jpg)
+![img](1.png)
 
 
 
 查询结果一：
 
-![img](2.jpg)
+![img](2.png)
 
 查询二：
 
-![img](3.jpg)
+![img](3.png)
 
 查询结果二：
 
-![img](4.jpg)
+![img](4.png)
 
 ## 分析
 
@@ -71,7 +71,7 @@ HAVING d.department_name in ('IT','Sales');
 
 自定义查询结果:
 
-![image-20210316221407799](C:\Users\76302\AppData\Roaming\Typora\typora-user-images\image-20210316221407799.png)
+![image-20210316221407799](5.png)
 
 ## 分析
 
