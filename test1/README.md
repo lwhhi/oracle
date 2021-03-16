@@ -34,21 +34,21 @@
 
 查询一：
 
-![img](file:///C:\Users\76302\AppData\Local\Temp\ksohtml19060\wps1.jpg)
+![img](1.jpg)
 
 
 
 查询结果一：
 
-![img](file:///C:\Users\76302\AppData\Local\Temp\ksohtml19060\wps2.jpg)
+![img](2.jpg)
 
 查询二：
 
-![img](file:///C:\Users\76302\AppData\Local\Temp\ksohtml19060\wps3.jpg)
+![img](3.jpg)
 
 查询结果二：
 
-![img](file:///C:\Users\76302\AppData\Local\Temp\ksohtml19060\wps4.jpg)
+![img](4.jpg)
 
 ## 分析
 
