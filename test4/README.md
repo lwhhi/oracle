@@ -18,9 +18,9 @@
 
 要求至少有1万个订单，每个订单至少有4个详单。至少有两个部门，每个部门至少有1个员工，其中只有一个人没有领导，一个领导至少有一个下属，并且它的下属是另一个人的领导（比如A领导B，B领导C）。
 
-![image-20210413095711552](D:\大学学习 文档\大三\大三下册\oracle\实验4\13.png)
+![image-20210413095711552](13.png)
 
-![14](D:\大学学习 文档\大三\大三下册\oracle\实验4\14.png)
+![14](14.png)
 
 ### 序列的应用
 
@@ -141,7 +141,7 @@ SELECT * FROM EMPLOYEES WHERE EMPLOYEE_ID = 1;
 
 ```
 
-![1](D:\大学学习 文档\大三\大三下册\oracle\实验4\1.png)
+![1](1.png)
 
 2.递归查询某个员工及其所有下属，子下属员工。
 
@@ -149,7 +149,7 @@ SELECT * FROM EMPLOYEES WHERE EMPLOYEE_ID = 1;
 SELECT * FROM employees START WITH EMPLOYEE_ID = 11 CONNECT BY PRIOR EMPLOYEE_ID = MANAGER_ID;
 ```
 
-![2](D:\大学学习 文档\大三\大三下册\oracle\实验4\2.png)
+![2](2.png)
 
 3.查询订单表，并且包括订单的订单应收货款: Trade_Receivable= sum(订单详单表.ProductNum*订单详单表.ProductPrice)- Discount。
 
@@ -165,7 +165,7 @@ GROUP BY
 
 ```
 
-![15](D:\大学学习 文档\大三\大三下册\oracle\实验4\15.png)
+![15](15.png)
 
 
 
@@ -184,7 +184,7 @@ WHERE
 	CUSTOMER_NAME='zhang1642';
 ```
 
-![16](D:\大学学习 文档\大三\大三下册\oracle\实验4\16.png)
+![16](16.png)
 
 
 
@@ -201,7 +201,7 @@ NOT IN
 	(SELECT ORDER_ID FROM ORDER_DETAILS );
 ```
 
-![10](D:\大学学习 文档\大三\大三下册\oracle\实验4\10.png)
+![10](10.png)
 
 6.查询部门表，同时显示部门的负责人姓名。
 
@@ -218,7 +218,7 @@ WHERE
 
 ```
 
-![17](D:\大学学习 文档\大三\大三下册\oracle\实验4\17.png)
+![17](17.png)
 
 7.查询部门表，统计每个部门的销售总金额。
 
@@ -237,7 +237,7 @@ GROUP BY
 	DEPARTMENTS.DEPARTMENT_ID;	
 ```
 
-![19](D:\大学学习 文档\大三\大三下册\oracle\实验4\19.png)
+![19](19.png)
 
 ## 表结构
 
